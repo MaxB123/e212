@@ -10,7 +10,7 @@
 \usepackage{siunitx}
 \usepackage{csquotes}
 \usepackage{hyperref}
-
+\usepackage[section]{placeins}
 
 \title{Properties of Elementary Particles}
 \author{Max Bock \\ Email \href{mailto:s6mabock@uni-bonn.de}{s6mabock@uni-bonn.de} 
@@ -30,16 +30,52 @@
 \subsubsection{Basics of Standard Model of Particle Physics}
 The Standard Model of particle physics implies the unified theory of the electromagnetic, weak and strong interaction and decides the elementary particles into two classes, namely bosons and fermions. \newline
 The bosons acts as exchange particles of the fundamental forces and have an integer spin. These ones are often called gauge bosons. There are eight massless gluons, which carry the colour charge of the strong force. Due to the fact that the gluons themselves have a colour charge, they interact with each other. The interaction range of the gluon is the smallest of all gauge bosons and is in the order of $1\,$fm. The massless photon is the exchange particle of the electromagnetic force, which has no electromagnetic charge. The range of this gauge boson is infinity. For the weak interaction there are two exchange particles, the $Z$ boson which carries no electromagnetic charge, whereby the $W^{\pm}$ bosons have a charge of $\pm 1$. The last boson is the so called Higgs particle- This is a scalar boson which delivers the mass of all particles which are coupled to the Higgs field.  \newline
-The fermions are divided into two subclasses, the quarks and the leptons which are also subdivided into three generations. The quarks are the only particles which interact strongly and carry colour charge but also interacts electromagnetic and weak. Due to the fact that the quarks can not appear alone apart they must form colour neutral formations. These formations are called hadrons which are divided into two classes, the mesons and the baryons. The mesons consist of a quark-antiquark pair and the baryons consist of three quarks. Each quark has either a charge of $2/3$ or $-1/3$ and further a spin of $1/2$. 
+The fermions are divided into two subclasses, the quarks and the leptons which are also subdivided into three generations. Each fermion has a corresponding anti particle with the same mass but opposite charge, including electric, weak and strong charge.\newline
+The quarks are the only particles which interact strongly and carry colour charge but also interacts electromagnetic and weak. Due to the fact that the quarks can not appear alone apart they must form colour neutral formations. These formations are called hadrons which are divided into two classes, the mesons and the baryons. The mesons consist of a quark-antiquark pair and the baryons consist of three quarks. Each quark has either a charge of $2/3$ or $-1/3$ and further a spin of $1/2$. 
 \newline
-The leptons consist of electron, muon and tau with the corresponding neutrino.  
+The leptons consist of electron, muon and tau with the corresponding neutrino. Whereas the neutrinos have no charge and only interacts weakly, the electron, muon and tau have a charge of $-1$ and interacts weakly and electromagnetically. Additionally, all leptons have a spin of $1/2$. Due to the fact that the muon and the tau have a higher mass than the electron, free muons and taus will decay most likely into an electron and further neutrinos in the last stable decay step, whereas the electron is stable. \cite{povh}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Standard_model.png}
 	\caption{}
 	\label{fig:standard_model}
 \end{figure}
+\subsection{Relativistic Kinematics}
+The ratio between moving mass $m$ and energy $E$ in relativistic kinematics is given by Einsteins famous equation \cite{rebhan}
+\begin{equation}
+	E=mc^2
+\end{equation}
+where $c$ is the speed of light. This equation can also be written as \cite{rebhan}
+\begin{equation}
+	E^2c^4=m_0^2c^4+\vec{p}\,^2c^2
+\end{equation}
+with the momentum vector $\vec{p}$ and the rest mass $m_0$, which is directly related to the mass $m$ via \cite{rebhan}
+\begin{equation}
+	m =\gamma m_0
+\end{equation}
+with the Lorentz factor $\gamma$ \cite{rebhan}
+\begin{equation}
+	\gamma = \frac{1}{\sqrt{1-\beta^2}} \quad \text{with} \quad \beta = \frac{v}{c} 
+\end{equation}
+If one defines the four-momentum $p$ as vector \cite{rebhan}
+\begin{equation}
+	p= \begin{pmatrix}
+		E \\ \vec{p}
+		\end{pmatrix}
+\end{equation}
+the invariant mass $M_n$ of a $n$-particle system will be given by \cite{rebhan}
+\begin{equation}
+	M_n^2 = \left( \sum p_i \right)^2 = \left( \sum E_i \right)^2 - \left( \sum \vec{p_i} \right)^2
+\end{equation}
 \subsection{Bubble Chamber}
+Till the early 80's, the bubble chamber was one of the most popular devices for detecting high energy elementary particles at accelerators. Therefore, in  a chamber that can be seen in figure \ref*{fig:bubble-chamber} a liquid which is nearly below the critical boiling temperature gets sequentially decompressed and compressed by a piston. While the liquid is decompressed it reaches an overheated state in which ionizing particles cause bubbles along their tracks. A particle will be deflected by a magnetic field if the particle has a electric charge. These bubbles can be detected by the use of cameras at different angles.   
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{bubble-chamber}
+	\caption{Illustration of a bubble chamber. \cite{wiki-bubble} - edited}
+	\label{fig:bubble-chamber}
+\end{figure}
+\FloatBarrier
 \subsection{Proton Proton interaction}
 \subsection{$\omega$ Meson}
 
@@ -52,30 +88,12 @@ The leptons consist of electron, muon and tau with the corresponding neutrino.
 \section{Appendix}
 
 \begin{thebibliography}{}
-\bibitem{lasers}
-	Peter W. Milonni (Los Alamos National Laboratory) and Joseph H. Eberly (University of Rochester), \textit{Lasers} (Wiley-Interscience, 1988)
-\bibitem{laserphysics}
-	Simon Hooker and Colin Webb, Department of Physics, University of Oxford, \textit{Laser Physics}, (Oxford University Press, 2011)
-\bibitem{quantumefficiency}
-Massachusetts Institute of Technology (MIT), Electrical Engineering and Computer Science, Compound Semiconductor Devices, 2003 \url{https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-772-compound-semiconductor-devices-spring-2003/lecture-notes/lecture20.pdf}
-\bibitem{bergmann}
-	Bergmann and Schäfer, \textit{Lehrbuch der Experimentalphysik, Band 3, Optik und Wellenmechanik}, de Gruyter Verlag, 10th. edition (2004)
-\bibitem{boyd}
-	R. W. Boyd, \textit{Nonlinear Optics}, Academic Press Boston (1992)
-\bibitem{meschede}
-D. Meschede, \textit{Optik, Licht und Laser}, Vieweg+Teubner Verlag, 3.rd edition (2008)
-\bibitem{hecht}
-	E. Hecht, \textit{Optics}, Addison Wesley, 4.th edition (2002)
-\bibitem{kühlke}
-	D. Kühlke, \textit{Optik - Grundlagen und Anwendungen}, Verlag Harri Deutsch, 3.rd improved edition (2011)
-\bibitem{wiki-gauss}
-	\url{https://en.wikipedia.org/wiki/Gaussian_beam#/media/File:GaussianBeamWaist.svg}
-\bibitem{description}
-	Experimental Description, \textit{A245: Optical Frequency Doubling}, University of Bonn, August 2015
-\bibitem{zinth}
-	W. Zinth and U. Zinth, \textit{Optik} \textit{Lichtstrahlen-Wellen-Photonen}, Oldenbourg Verlag München, 4th. improved edition (2013)
-	
-
+\bibitem{povh}
+	B. Povh, K. Rith, C. Scholz, F. Zetsche, W. Rodejohann: \textit{Teilchen und Kerne - Eine Einführung in die physikalischen Konzepte} (Springer Spektrum, 2014) 9th. edition
+\bibitem{rebhan}
+	E. Rebhan: \textit{Theoretische Physik: Relativitätstheorie und Kosmologie} (Spektrum, 2012) 1st. edition
+	\bibitem{wiki-bubble}
+	\url{https://en.wikipedia.org/wiki/Bubble_chamber#/media/File:Bubble-chamber.svg}\newline (last downloaded at 7th. April 2017)
 \end{thebibliography}
  
 \end{document}

@@ -13,7 +13,13 @@
 \contentsline {subsubsection}{\numberline {2.4.1}Breit-Wigner Distribution}{5}{subsubsection.2.4.1}
 \contentsline {subsubsection}{\numberline {2.4.2}Gauss Distribution}{5}{subsubsection.2.4.2}
 \contentsline {subsubsection}{\numberline {2.4.3}Dalitz Plots}{5}{subsubsection.2.4.3}
-\contentsline {section}{\numberline {3}Experimental Set-Up and Measurements}{5}{section.3}
-\contentsline {section}{\numberline {4}Analysis}{5}{section.4}
-\contentsline {section}{\numberline {5}Conclusion}{5}{section.5}
-\contentsline {section}{\numberline {6}Appendix}{5}{section.6}
+\contentsline {section}{\numberline {3}Experimental Set-Up and Measurements}{6}{section.3}
+\contentsline {section}{\numberline {4}Analysis}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Properties of proton-proton interaction using $24\tmspace +\thinmuskip {.1667em}$GeV/c proton beam}{6}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Magnification}{6}{subsubsection.4.1.1}
+\contentsline {subsection}{\numberline {4.2}Weak decays}{6}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Determination of mass, lifetime, spin and parity of the $\omega $ meson}{6}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Bin Width}{6}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Experimental Resolution}{6}{subsubsection.4.3.2}
+\contentsline {section}{\numberline {5}Conclusion}{6}{section.5}
+\contentsline {section}{\numberline {6}Appendix}{6}{section.6}

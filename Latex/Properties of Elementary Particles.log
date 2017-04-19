@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.21)  19 APR 2017 13:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.21)  19 APR 2017 17:03
 entering extended mode
 **Properties*of*Elementary*Particles.tex
 
@@ -1097,7 +1097,7 @@ it\Latex\Properties of Elementary Particles.toc")
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] <Standard_model.png, id=1
-10, 1027.84pt x 983.675pt>
+41, 1027.84pt x 983.675pt>
 File: Standard_model.png Graphic file (type png)
 
 <use Standard_model.png>
@@ -1107,7 +1107,7 @@ Package pdftex.def Info: Standard_model.png used on input line 44.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2] <bubble-chamber.pdf, id=128, 1103.48712pt x 785.21419pt>
+[2] <bubble-chamber.pdf, id=158, 1103.48712pt x 785.21419pt>
 File: bubble-chamber.pdf Graphic file (type pdf)
 
 <use bubble-chamber.pdf>
@@ -1133,32 +1133,74 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [4 <C:/Users/Hoffmann/Desktop/Studium/Master/8.Semester/Advanced Lab Course/E21
 2Git/Latex/bubble-chamber.pdf>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 135.
+<Dalitz-triangle.png, id=199, 615.0478pt x 679.78969pt>
+File: Dalitz-triangle.png Graphic file (type png)
+
+<use Dalitz-triangle.png>
+Package pdftex.def Info: Dalitz-triangle.png used on input line 120.
+(pdftex.def)             Requested size: 286.80672pt x 317.00136pt.
+
+<density_theo.jpg, id=203, 630.85687pt x 158.09062pt>
+File: density_theo.jpg Graphic file (type jpg)
+ <use density_theo.jpg>
+Package pdftex.def Info: density_theo.jpg used on input line 127.
+(pdftex.def)             Requested size: 478.00635pt x 119.78827pt.
+
+[5 <C:/Users/Hoffmann/Desktop/Studium/Master/8.Semester/Advanced Lab Course/E21
+2Git/Latex/Dalitz-triangle.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 1.66661pt
+(hyperref)                removed on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 138.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\omega' on input line 138.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 138.
+
+[6 <C:/Users/Hoffmann/Desktop/Studium/Master/8.Semester/Advanced Lab Course/E21
+2Git/Latex/density_theo.jpg>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 155.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
 
 ("C:\Users\Hoffmann\Desktop\Studium\Master\8.Semester\Advanced Lab Course\E212G
 it\Latex\Properties of Elementary Particles.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 146.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 146.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
 Package rerunfilecheck Info: File `Properties*of*Elementary*Particles.out' has 
 not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 17755 strings out of 493921
- 338321 string characters out of 3147273
- 433779 words of memory out of 3000000
- 20814 multiletter control sequences out of 15000+200000
+ 17784 strings out of 493921
+ 338806 string characters out of 3147273
+ 433951 words of memory out of 3000000
+ 20830 multiletter control sequences out of 15000+200000
  22727 words of font info for 71 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 45i,8n,48p,10422b,788s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,8n,48p,10422b,887s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Hoffmann\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
 00\ectt1000.pk> <C:\Users\Hoffmann\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
 appen\ec\dpi600\ecti1000.pk> <C:\Users\Hoffmann\AppData\Local\MiKTeX\2.9\fonts\
@@ -1175,15 +1217,16 @@ k\ljfour\jknappen\ec\dpi600\ecsx2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type
 s/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
 i5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy7.pfb>
-Output written on "Properties of Elementary Particles.pdf" (5 pages, 575407 byt
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb>
+Output written on "Properties of Elementary Particles.pdf" (7 pages, 828925 byt
 es).
 PDF statistics:
- 566 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 637 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 

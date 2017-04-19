@@ -3,11 +3,17 @@
 \contentsline {section}{\numberline {2}Theoretical Background}{2}{section.2}
 \contentsline {subsection}{\numberline {2.1}Basics of particle physics}{2}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}Basics of Standard Model of Particle Physics}{2}{subsubsection.2.1.1}
-\contentsline {subsection}{\numberline {2.2}Relativistic Kinematics}{3}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Bubble Chamber}{3}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Proton Proton interaction}{4}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}$\omega $ Meson}{4}{subsection.2.5}
-\contentsline {section}{\numberline {3}Experimental Set-Up and Measurements}{4}{section.3}
-\contentsline {section}{\numberline {4}Analysis}{4}{section.4}
-\contentsline {section}{\numberline {5}Conclusion}{4}{section.5}
-\contentsline {section}{\numberline {6}Appendix}{4}{section.6}
+\contentsline {subsubsection}{\numberline {2.1.2}Relativistic Kinematics}{3}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2}Bubble Chamber}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Proton Proton interaction}{4}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Elastic and Inelastic Scattering}{4}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Cross-Section}{4}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Radiation Length}{4}{subsubsection.2.3.3}
+\contentsline {subsection}{\numberline {2.4}$\omega $ Meson}{5}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Breit-Wigner Distribution}{5}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Gauss Distribution}{5}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Dalitz Plots}{5}{subsubsection.2.4.3}
+\contentsline {section}{\numberline {3}Experimental Set-Up and Measurements}{5}{section.3}
+\contentsline {section}{\numberline {4}Analysis}{5}{section.4}
+\contentsline {section}{\numberline {5}Conclusion}{5}{section.5}
+\contentsline {section}{\numberline {6}Appendix}{5}{section.6}

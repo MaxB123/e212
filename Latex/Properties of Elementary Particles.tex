@@ -21,10 +21,15 @@
 
 \begin{document}
 \maketitle
+\begin{abstract}
+	\Large
+	Nature has always looked like a horrible mess, but as we go along we see patterns and put theories together; a certain clarity comes and things get simpler. - Richard P. Feynman \cite{feynman}
+\end{abstract}
 \tableofcontents
 \newpage
-\section{Introduction}
 
+\section{Introduction}
+In this experiment typical interactions in elementary particle physics will studied. Therefore, first proton-proton interactions observed in a bubble chamber are analysed. Further, the films from the bumble chamber are used to study $\pi$-$\mu$-e decays and observe strange neutral particles which have to be identified. In the end certain characteristics of $\omega$ mesons are determined in a computer-based analysis of many $\text{pp}\rightarrow\text{pp}\pi^+\pi^-\pi^0$ events.
 \section{Theoretical Background}
 \subsection{Basics of particle physics}
 \subsubsection{Basics of Standard Model of Particle Physics}
@@ -37,10 +42,11 @@ The leptons consist of electron, muon and tau with the corresponding neutrino. W
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Standard_model.png}
-	\caption{}
+	\caption{Standard Model of Elementary Particles.}
 	\label{fig:standard_model}
 \end{figure}
-\subsection{Relativistic Kinematics}
+\FloatBarrier
+\subsubsection{Relativistic Kinematics}
 The ratio between moving mass $m$ and energy $E$ in relativistic kinematics is given by Einsteins famous equation \cite{rebhan}
 \begin{equation}
 	E=mc^2
@@ -71,14 +77,45 @@ the invariant mass $M_n$ of a $n$-particle system will be given by \cite{rebhan}
 Till the early 80's, the bubble chamber was one of the most popular devices for detecting high energy elementary particles at accelerators. Therefore, in  a chamber that can be seen in figure \ref*{fig:bubble-chamber} a liquid which is nearly below the critical boiling temperature gets sequentially decompressed and compressed by a piston. While the liquid is decompressed it reaches an overheated state in which ionizing particles cause bubbles along their tracks. A particle will be deflected by a magnetic field if the particle has a electric charge. These bubbles can be detected by the use of cameras at different angles.   
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{bubble-chamber}
+	\includegraphics[width=0.7\textwidth]{bubble-chamber}
 	\caption{Illustration of a bubble chamber. \cite{wiki-bubble} - edited}
 	\label{fig:bubble-chamber}
 \end{figure}
 \FloatBarrier
 \subsection{Proton Proton interaction}
+\subsubsection{Elastic and Inelastic Scattering}
+In the elastic scattering the particles before and after the scattering process are identical. Further, the sum of kinetic energy and the momentum stay unchanged during the event. In the inelastic case the particles after the action must not be the same as before. In addition, the momentum is conserved but the kinetic energy is transferred into for instance binding or ionizing energy. \cite{povh}
+\subsubsection{Cross-Section}
+ The cross-section is one of the most important quantities for description and interpretation in scattering experiments. This is related to the quantum mechanically probability of a reaction between the incoming particle and the target. In a proton-proton interaction the cross-section $\sigma$ is given by \cite{description}
+ \begin{equation}
+ 	\sigma=\frac{1}{nl}\ln\left(\frac{N_\text{p}}{N_\text{p}-N_i} \right) 
+ \end{equation}
+ with the concentration of scattering centres $n$, the observed length of the bubble chamber $l$, the number of incoming protons $N_\text{p}$ and the number of prime interactions between two protons $N_i$. \cite{martin}
+\subsubsection{Radiation Length}
+The radiation length is defined as the average range where the energy of an electron is reduced to $1/e$ by bremsstrahlung. Further, the mean free path of the e$^+$e$^-$ pair production process is approximately $7/9$ of the radiation length. The radiation length $X_0$ is given by \cite{thomson}
+\begin{equation}
+	X_0\approx\frac{1}{4\alpha n_n Z^2r_\text{e}^2\ln\left(287/Z^{1/2} \right) }
+\end{equation}
+where $n_n$ is the number density of nuclei, $r_\text{e}$ is the classical radius of an electron, $Z$ is the atomic number and the fine structure constant $\alpha$. \cite{thomson}
 \subsection{$\omega$ Meson}
-
+The $\omega$ meson is a vector meson ($J^P=1^-$) to which an isospin of $I=0$ can be assigned. The corresponding wave function can be written as \cite{povh}
+\begin{equation}
+	|\omega \rangle = \frac{1}{\sqrt{2}}\left\lbrace|u^\uparrow \bar{u}^\uparrow \rangle + |d^\uparrow \bar{d}^\uparrow \rangle\right\rbrace 
+\end{equation}
+\subsubsection{Breit-Wigner Distribution}
+A resonance is a system of shortly lived bounded states which are formed by two partners in a collision. In this case, the mass dependence of the cross-section in the vicinity of the resonance mass of  $m_\omega$ is described by the Breit-Wigner formula \cite{description}
+\begin{equation}
+	\sigma_{BW}(m)=  \frac{\Gamma_\omega}{2\pi}\frac{1}{(m-m_\omega)^2+\Gamma_\omega^2/4}
+\end{equation}
+\subsubsection{Gauss Distribution}
+The Gauss distribution is a good approximation to describe many phenomena in physics. The continuous distribution is given by \cite{gauss}
+\begin{equation}
+	\sigma_G(m)=\frac{1}{s\sqrt{2\pi}}e^{-\frac{1}{2}\left( \frac{m-m_\omega}{s}\right)^2} 
+\end{equation} 
+whereupon $s$ is the standard deviation. 
+\subsubsection{Dalitz Plots}
+To classify decays of three particles with the same mass Dalitz plots are often used to determine the spin and parity of resonances. Therefore the kinetic energies of the three particles $T_1$, $T_2$ and $T_3$ are presented in a two dimensional diagram as shown in figure.
+  
 \section{Experimental Set-Up and Measurements}
 
 \section{Analysis}
@@ -88,12 +125,22 @@ Till the early 80's, the bubble chamber was one of the most popular devices for 
 \section{Appendix}
 
 \begin{thebibliography}{}
+\bibitem{feynman}
+	R. P. Feynam: \textit{QED- The Strange Theory of Light and Matter} (Princeton University Press, 1985)
 \bibitem{povh}
 	B. Povh, K. Rith, C. Scholz, F. Zetsche, W. Rodejohann: \textit{Teilchen und Kerne - Eine Einführung in die physikalischen Konzepte} (Springer Spektrum, 2014) 9th. edition
 \bibitem{rebhan}
 	E. Rebhan: \textit{Theoretische Physik: Relativitätstheorie und Kosmologie} (Spektrum, 2012) 1st. edition
 	\bibitem{wiki-bubble}
 	\url{https://en.wikipedia.org/wiki/Bubble_chamber#/media/File:Bubble-chamber.svg}\newline (last downloaded at 7th. April 2017)
+\bibitem{description}
+	G. Seul: \textit{Praktikumsversuche zur Einführung in die Hochenergyphysik} (Bonn, 1977)
+\bibitem{martin} 
+	B. R. Martin: \textit{Nuclear and Particle Physics - An Introduction} (Wiley, 2009) 2nd. edition
+\bibitem{thomson}
+	M. Thomson: \textit{Modern Particle Physics} (Cambridge University Press, 2015) 3rd. edition
+\bibitem{gauss}
+	L. Fahrmeir, A. Hamerle, G. Tutz: \textit{Multivariate statistische Verfahren} (Walter de Gruyter, 1996) 2nd. edition
 \end{thebibliography}
  
 \end{document}

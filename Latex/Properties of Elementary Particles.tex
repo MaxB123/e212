@@ -104,15 +104,18 @@ The $\omega$ meson is a vector meson ($J^P=1^-$) to which an isospin of $I=0$ ca
 \end{equation}
 \subsubsection{Breit-Wigner Distribution}
 A resonance is a system of shortly lived bounded states which are formed by two partners in a collision. In this case, the mass dependence of the cross-section in the vicinity of the resonance mass of  $m_\omega$ is described by the Breit-Wigner formula \cite{description}
-\begin{equation}
+\begin{equation} \label{eq:bw}
 	\sigma_{BW}(m)=  \frac{\Gamma_\omega}{2\pi}\frac{1}{(m-m_\omega)^2+\Gamma_\omega^2/4}
 \end{equation}
 \subsubsection{Gauss Distribution}
 The Gauss distribution is a good approximation to describe many phenomena in physics. The continuous distribution is given by \cite{gauss}
-\begin{equation}
+\begin{equation}\label{eq:gauss}
 	\sigma_G(m)=\frac{1}{s\sqrt{2\pi}}e^{-\frac{1}{2}\left( \frac{m-m_\omega}{s}\right)^2} 
 \end{equation} 
-whereupon $s$ is the standard deviation. 
+whereupon $s$ is the standard deviation. Further one can calculate the full width at half maximum, shortly called FWHM, via 
+\begin{equation}\label{eq:calc_fwhm}
+	\text{FWHM}=2\sqrt{2\ln(2)}\cdot s
+\end{equation}
 \subsubsection{Dalitz Plots}
 To classify decays of three particles with the same mass Dalitz plots are often used to determine the spin and parity of resonances. Therefore the kinetic energies of the three particles $T_1$, $T_2$ and $T_3$ are presented in a two dimensional equilateral triangle diagram with three axes as shown in figure \ref{fig:dalitz}.
 \begin{figure}[h]
@@ -132,14 +135,68 @@ Each axis corresponds to the kinetic energy of one particle. Due to momentum con
 \section{Experimental Set-Up and Measurements}
 
 \section{Analysis}
-\subsection{Properties of proton-proton interaction using $24\,$GeV/c proton beam}
+\subsection{Properties of Proton-Proton Interaction using $24\,$GeV/c Proton Beam}
 \subsubsection{Magnification}
 \subsection{Weak decays}
-\subsection{Determination of mass, lifetime, spin and parity of the $\omega$ meson}
+\subsection{Determination of Mass, Lifetime, Spin and Parity of the $\omega$ Meson}
 \subsubsection{Bin Width}
 First of all the best suitable bin width for the analysis has to be found. Therefore a Breit-Wigner distribution is fitted to the $\omega$ peak and for finding the most fitting bin width the reduced $\chi^2$ are compared. For that the fitting boarders are chosen between $600$ and $1100\,$MeV. This can be seen in table \textcolor{red}{!!!}. By this one can see that either a bin width of $11$ or $14$ are candidates for the best bin width. Due to the fact that the $\chi^2$ of the bin width of $11$ which is $1.0251$ is the best amount above the optimal value and the $\chi^2$ of the bin width of $14$ which is $0.985$ is the best amount below the optimal value $\chi^2=1$. Further these deviations are in the same order of magnitude. Due to that at this point of the analysis it is not possible to say which bin width is the optimal one. Therefore, a further observation is performed.
 \subsubsection{Experimental Resolution}
-For the experimental resolution a Gaussian function is fitted to the $\eta$ resonance as mentioned before. Because there are candidates for the best bin width this measurement is done for both ones with different fitting borders to compare the $\chi^2$ for all these fits. The $\chi^2$ for the different bin width and different fitting borders are shown in table \textcolor{red}{!!!}. As it is seen in table [!!!] the best $\chi^2$ is given for 
+For the experimental resolution a Gaussian function is fitted to the $\eta$ resonance as mentioned before. Because there are candidates for the best bin width this measurement is done for both ones with different fitting borders to compare the $\chi^2$ for all these fits. The $\chi^2$ for the different bin width and different fitting borders are shown in table \textcolor{red}{!!!}. As it is seen in table [!!!] the best $\chi^2$ is given for a bin width of $11$ and a fitting border between $500$ and $600\,$ MeV. The output with these settings is presented in figure \ref{fig:eta_resolution}. From that it is clear that the best bin width is $11$. The resolution $\Gamma$ is defined as the full width at half maximum. For a Gaussian function this is the standard deviation $\omega$ which corresponds to the $s$ value in equation \ref{eq:gauss}. By this and equation \ref{eq:calc_fwhm} a resolution of
+\begin{equation}
+	\Gamma_{exp}=(17.87\,\pm4.64)\,\text{MeV}
+\end{equation}
+can be read out from figure \ref{fig:eta_resolution}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{eta_resolution}
+	\caption{Gaussian fit for the optimal resolution of the $\eta$ resonance for a bin width of $11$.}
+	\label{fig:eta_resolution}
+\end{figure}
+\FloatBarrier
+\subsubsection{Mass and Lifetime of the $\omega$ Mesons}
+To determine the mass of the $\omega$ meson a Breit-Wigner distribution is fitted to the $\omega$ peak with equation \ref{eq:bw}. The result is shown in figure \ref{fig:omega_bw}. From this, a mass of 
+\begin{equation}
+	m_\omega=M=(783.27\pm0.97)\,\text{MeV}
+\end{equation}
+is determined whereas $M$ is directly read out from the fitting parameters. The error of the mass is lower than the resolution and so this error is probably estimated to low. Due to that one would have to manually increase the error to get a better estimation.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{omega_bw}
+	\caption{Breit-Wigner fit for the determination of the mass $m_\omega$ and the lifetime $\tau_\omega$ of the $\omega$ resonance.}
+	\label{fig:omega_bw}
+\end{figure}
+In the literature one finds typical masses of the $\omega$ meson with \cite{erricson}
+\begin{equation}
+	m_\omega^{lit}=(782.65\pm0.12)\,\text{MeV}
+\end{equation}
+One can see that the determined mass of the $\omega$ meson corresponds to the literature value inside the margin of errors. \newline
+For the determination of the lifetime $\tau_\omega$ the FWHM can be used. Because of the experimental resolution $\Gamma_{exp}$ the determined FWHM $\Gamma_{tot}$ of the $\omega$ meson has to be corrected to get the natural linewidth $\Gamma_{nat}$ with \cite{description}
+\begin{equation}\label{eq:gamma_nat}
+	\Gamma_{nat}=\Gamma_{tot}-\Gamma_{exp}
+\end{equation}
+The total FWHM $\Gamma_{tot}$ can be read out directly from \ref{fig:omega_bw} with
+\begin{equation}
+	\Gamma_{tot}=\Gamma=(31.38\pm2.67)\,\text{MeV}
+\end{equation}
+This leads to a natural linewidth of
+\begin{equation}
+	\Gamma_{nat}=(13.51\pm5.35)\,\text{MeV}
+\end{equation}
+whereupon the error is calculated with Gaussian error propagation. The lifetime $\tau_\omega$ can be calculated directly from the natural linewidth via \cite{frauenfelder}
+\begin{equation}
+	\tau_\omega=\frac{\hbar}{\Gamma_{nat}}=(4.87\pm1.93)\times 10^{-23}\,\text{s}
+\end{equation}
+In the literature one finds typical lifetimes of the $\omega$ meson with \cite{lifetime_omega}
+\begin{equation}
+	\tau_\omega^{lit}=(7.69\pm0.33)\times 10^{-23}\,\text{s}
+\end{equation} 
+One can see that determined lifetime of the $\omega$ meson are in the correct order of the magnitude compared to the literature value but not within the margin of errors. This could be caused due to too small error estimation and additionally due to the fact that equation \ref{eq:gamma_nat} is only a first approximation.
+\FloatBarrier
+\subsubsection{Spin and Parity of the $\omega$ meson}
+For the determination of the spin and parity the radial density plots are used and compared to the theoretical expectation of the radial density distribution of $J^P=0^-$, $J^P=1^+$ and $J^P=1^-$ particles. The radial density plot with the best $\chi^2$ represents the spin and parity of the $\omega$ meson. \newline
+For the choice of the best data settings the $\chi^2$ for different fitting ranges are observed and compared. The results are shown in table !!!. In this experiment the best fitting range is determined to 
+
 \section{Conclusion}
 
 \section{Appendix}
@@ -161,6 +218,12 @@ For the experimental resolution a Gaussian function is fitted to the $\eta$ reso
 	M. Thomson: \textit{Modern Particle Physics} (Cambridge University Press, 2015) 3rd. edition
 \bibitem{gauss}
 	L. Fahrmeir, A. Hamerle, G. Tutz: \textit{Multivariate statistische Verfahren} (Walter de Gruyter, 1996) 2nd. edition
+\bibitem{erricson}
+	T. E. O. Ericson: \textit{The Meson Factories} (University of California Press, 1991)
+\bibitem{frauenfelder}
+	H. Frauenfelder, E. M. Henley: \textit{Teilchen und Kerne - Die Welt der subatomaren Physik} (R. Oldenbourg Verlag München Wien, 1999) 4th. edition
+\bibitem{lifetime_omega}
+	N. Gelfand, D. Miller, M. Nussbaum, J. Ratau, J. Schultz, J. Steinberger, T. -H. Tan, L. Kirsch, R. Plano: \textit{Lifetime of the $\omega$ Meson} (Phys. Rev. Lett. 11, 436 – Published 1 November 1963)
 \end{thebibliography}
  
 \end{document}
